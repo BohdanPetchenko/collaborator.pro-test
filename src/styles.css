@@ -54,15 +54,15 @@ button {
 }
 
 .card {
-  background: #1e3a5f;
   border: 2px solid currentColor;
   border-radius: 6px;
   padding: 1rem;
   width: 210px;
-  overflow: hidden;
   margin-bottom: 1rem;
   position: relative;
   z-index: 1;
+
+  background: radial-gradient(circle at calc(7% + 250px) 50%, #ffd43b1f 39px, transparent 250px), #1e3a5f;
 
   &::before {
     content: '';
@@ -73,18 +73,6 @@ button {
     height: 3px;
     background: #ffd43b;
     z-index: 1;
-  }
-
-  &::after {
-    content: '';
-    position: absolute;
-    top: calc(50% - 250px);
-    left: 7%;
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-    background-image: radial-gradient(#ffd43b1f 11%, transparent 78%);
-    z-index: -1;
   }
 }
 
