@@ -99,6 +99,7 @@ button:focus-visible {
 
 .dropdown-menu {
   position: absolute;
+  z-index: 10;
   top: 100%;
   left: 50%;
   transform: translateX(-50%);
