@@ -92,14 +92,15 @@ button:focus-visible {
 
 .dropdown {
   position: relative;
+  display: inline-block;
 }
 
 .dropdown-menu {
   position: absolute;
   z-index: 10;
   top: 100%;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0;
+  right: 0;
   margin: 4px 0 0;
   padding: 0;
   list-style: none;
