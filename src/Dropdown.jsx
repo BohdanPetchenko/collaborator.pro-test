@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import DropdownArrowIcon from './assets/DropdownArrowIcon';
 
 export default function Dropdown({ options, value, onChange }) {
   const [open, setOpen] = useState(false);
@@ -36,8 +37,9 @@ export default function Dropdown({ options, value, onChange }) {
 
   return (
     <div className={"dropdown"} ref={rootRef}>
-      <button type="button" onClick={toggle}>
-        {value.label} ▾
+      <button type="button" onClick={toggle} aria-expanded={open}>
+        {value.label}
+        <DropdownArrowIcon className={open ? 'dropdown-arrow open' : 'dropdown-arrow'} />
       </button>
       {open && (
         <ul className={up ? 'dropdown-menu up' : 'dropdown-menu'}>
