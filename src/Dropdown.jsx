@@ -12,19 +12,19 @@ export default function Dropdown({ options, value, onChange }) {
   return (
     <div className={"dropdown"}>
       <button type="button" onClick={toggle}>
-        {value} ▾
+        {value.label} ▾
       </button>
       {open && (
         <ul className={up ? 'dropdown-menu up' : 'dropdown-menu'}>
           {options.map((v) => (
             <li
-              key={v}
+              key={v.key}
               onClick={() => {
                 onChange(v);
                 setOpen(false);
               }}
             >
-              {v}
+              {v.label}
             </li>
           ))}
         </ul>
