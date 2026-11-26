@@ -1,6 +1,7 @@
 # Звіт по тестовому завданню
 
 **Репозиторій:** [collaborator.pro-test](https://github.com/BohdanPetchenko/collaborator.pro-test)
+**Демо:** [bohdanpetchenko.github.io/collaborator.pro-test](https://bohdanpetchenko.github.io/collaborator.pro-test/)
 **Загальний час:** ~89 хв (сума по комітах)
 
 ## Виправлені баги

@@ -2,6 +2,7 @@
 
 Невеликий застосунок на React 19 + webpack 5: заголовок, картка з дропдауном, опис і кнопка.
 
+- Демо: [bohdanpetchenko.github.io/collaborator.pro-test](https://bohdanpetchenko.github.io/collaborator.pro-test/)
 - Умови завдання: [TASK.md](TASK.md)
 - Звіт про виконання (виправлені баги, компроміси, пропозиції): [REPORT.md](REPORT.md)
 
