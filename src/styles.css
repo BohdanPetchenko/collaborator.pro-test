@@ -30,6 +30,7 @@ button {
   font-size: 16px;
   display: inline-flex;
   background-color: #1e3a5f;
+  align-items: baseline;
 
   &::after {
     content: '';
